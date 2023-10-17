@@ -49,7 +49,8 @@ else
 fi
 ## Install EPEL Package
 eval $INSTALL_CMDS
-$PKG_EXE -y -q update
+/usr/bin/crb
+$PKG_EXE -y update
 
 echo "======================================================"
 echo "Installing $PRODUCT Dependencies"
